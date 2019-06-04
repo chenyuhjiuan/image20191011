@@ -1,0 +1,26 @@
+.a {
+    width:5px;
+    height: 5px;
+}
+
+#navmenu {
+    width:190px;
+    text-align: center;
+    position: relative;
+    float: left;
+    margin-right: 4px;
+
+}
+
+#navmenu a{
+    text-decoration: none;
+    display: block;
+    width: 190px;
+    height: 35px;
+    line-height: 35px;
+    background-color:#A24545  ;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid #FFFFB2;
+
+}
