@@ -50,4 +50,10 @@ public class ImageController {
         }
         return "redirect:/pictures";
     }
+
+    @RequestMapping("/deleteimages/{id}")
+    public String delActor(@PathVariable("id") long id){
+        actorRepository.deleteById(id);
+        return "redirect:/pictures";
+    }
 }

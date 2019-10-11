@@ -1,10 +1,15 @@
-.a {
-    width:5px;
-    height: 5px;
-}
 
-#navmenu {
-    width:190px;
+h2 {
+    color: red;
+}
+.error {
+    color: red;
+}
+.arrow {
+    color: red;
+}
+img {
+
     text-align: center;
     position: relative;
     float: left;
